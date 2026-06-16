@@ -1,0 +1,46 @@
+name: flutter_application_1
+description: "A Flutter task management app with Firebase"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^4.7.0
+  firebase_auth: ^6.4.0
+  cloud_firestore: ^6.3.0
+
+  # Database
+  sqflite: ^2.3.0
+  path_provider: ^2.1.2
+  path: ^1.8.3
+
+  # Internet connectivity check
+  connectivity_plus: ^6.0.5
+
+  # Image handling
+  image_picker: ^1.1.2
+
+  # State management
+  provider: ^6.1.1
+
+  # Storage
+  shared_preferences: ^2.2.3
+
+  # Icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
